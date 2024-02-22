@@ -8,7 +8,7 @@ import { Application } from "@/app";
 import { appStarted } from "@/shared/init";
 import { router } from "@/shared/routing";
 
-const root = document.getElementById("root") as HTMLElement;
+const root = document.getElementById("root")!;
 
 const scope = fork();
 
