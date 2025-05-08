@@ -1,4 +1,4 @@
-import { RouteRecord, createRoutesView } from "atomic-router-react";
+import { type RouteRecord, createRoutesView } from "atomic-router-react";
 
 const pages = import.meta.glob<
   true,
